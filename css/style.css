@@ -1,0 +1,89 @@
+input.ui-slider-input {
+  display: none;
+}
+ul{
+    
+    z-index:0;
+    width:120%;
+    position:relative;
+    margin-left:-100px;
+    margin-top:-130px;
+    top:40px;
+}
+
+div.content{
+    position:relative;
+    top:30px;
+    text-align:center;
+    color:black;
+    z-index:1;
+    background-color:rgba(255, 255, 255, 0.8);
+
+}
+
+li{
+    margin-right:-220px;
+    margin-bottom:-40px;
+    float:left;
+    /* border:1px solid red; */
+    height:175px;
+        display:-webkit-box;
+-webkit-box-pack:center;
+-webkit-box-align:center;
+}
+
+.box.A{   
+            display:-webkit-box;
+-webkit-box-pack:center;
+-webkit-box-align:center;
+    width:175px;
+    /* border:1px blue solid; */
+}
+
+.box.B{   
+    position:relative;
+    top:-70px;
+    left:-110px;
+            display:-webkit-box;
+-webkit-box-pack:center;
+-webkit-box-align:center;
+    width:175px;    
+    /* border:1px blue solid; */
+}
+
+
+.elem{
+
+    width:175px; 
+    height:175px;
+    /* border:1px red solid; */
+     background-repeat: no-repeat;
+}
+
+
+
+.elem.A {  
+        background-image:url('http://s24.postimg.org/ua9mzwmht/arrow.png');
+
+    -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 3.0s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+     }
+ @-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(-360deg);} 
+}
+
+.elem.B {  
+        background-image:url('http://s29.postimg.org/np8utnv8j/arrow2.png');
+    -webkit-animation-name: rotate2; 
+    -webkit-animation-duration: 3.0s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+     }
+ @-webkit-keyframes rotate2 {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);} 
+}
