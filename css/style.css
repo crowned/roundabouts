@@ -1,3 +1,11 @@
+body{
+	overflow:hidden;	
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 input.ui-slider-input {
   display: none;
 }
@@ -5,6 +13,7 @@ input.ui-slider-input {
 span.input-label{
 	
 }
+
 @media screen and (max-width:860px) {
     span.input-label { display:none }
 }
