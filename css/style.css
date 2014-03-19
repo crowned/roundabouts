@@ -100,7 +100,7 @@ float:left;
 
 
 .elem.A {  
-        background-image:url('http://s24.postimg.org/ua9mzwmht/arrow.png');
+        background-image:url('../images/arrow.png');
 
     animation-name: rotate; 
     animation-duration: 3.0s; 
@@ -124,7 +124,7 @@ float:left;
 }
 
 .elem.B {
-        background-image:url('http://s29.postimg.org/np8utnv8j/arrow2.png');
+        background-image:url('../images/arrow2.png');
 }
 .elem.B {      
     animation-name: rotate2; 
