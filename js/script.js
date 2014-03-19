@@ -3,7 +3,6 @@ $('document').ready(function() {
 	vCount = Math.ceil(1.35*$(window).height() / $("li").first().height());
 	hCount = Math.ceil(2.75*$(window).width() / $("li").first().width());
 	numberOfBlocks = vCount * hCount;
-	
 	//populate page with li elements
 	for (var i=1;i<numberOfBlocks;i++)
 		{ 
@@ -12,7 +11,6 @@ $('document').ready(function() {
 
 	//scale pairs
 	scale= 75 / 100;
-	alert("fuck");
     $(".box.A").css("transform", "scale("+scale+","+scale+")");
     $(".box.B").css("transform", "scale("+(1-scale)+","+(1-scale)+")");
 
