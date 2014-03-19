@@ -1,14 +1,14 @@
 body{
-/*	overflow:hidden;	*/
+	overflow:hidden;	
 }
 
-/*::-webkit-scrollbar { 
+::-webkit-scrollbar { 
     display: none; 
 }
 
 ::-scrollbar { 
     display: none; 
-}*/
+}
 
 input.ui-slider-input {
   display: none;
